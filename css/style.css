@@ -6,7 +6,89 @@
 }
 
 .header {
-    background-color: rgb(41, 41, 41);
+    background-color: rgb(57, 57, 57);
     color: white;
+    font-size: 20px;
+    font-weight: 900;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.user-card {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 78px;
+}
+
+.user-card img {
+    height: 100px;
+    width: 100px;
+    border: 1.5px black solid;
+    border-radius: 50%;
+    margin: 50px;
+}
+
+.user-card, .post {
+    border: 1.5px black solid;
+    border-radius: 5px;
+}
+
+.name {
+    padding: 8px;
+}
+
+.feed {
+    flex-grow: 1;
+    margin: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.name-post {
+    margin-bottom: 20px;
+}
+
+.likes-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: flex-start;
+    gap: 10px;
+}
+
+.like {
+    background-color: rgb(249, 208, 0);
+    color: rgb(44, 30, 3);
+    border: none;
+    padding: 10px 20px;
+}
+.like:hover{
+    background-color: rgb(197, 164, 0);
+    scale: 1.1;
+}
+.like:active{
+    background-color: rgb(159, 98, 0);
+    scale: 1;
 }
