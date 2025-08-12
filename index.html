@@ -4,43 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Me Gusta</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>Network</header>
-    <main>
-        <article><img src="" alt=""><p>Adrien Desplatz</p></article>
+    <header class="header">Network</header>
+    <main class="container">
+        <aside class="user-card">
+            <img src="" alt=""><h2 class="name">Adrien Desplatz</h2>
+        </aside>
         <div>
-            <article>
+            <h1>Your Feed</h1>
+            <article class="post">
                 <div>
-                    <p>Linn O.</p>
+                    <h2 class="name">Linn O.</h2>
                     <p>Acabo de configurar este nuevo bot de Discord, cuéntenme que opinan ustedes. <a href="#">link</a></p>
                 </div>
-                <div>
-                    <p><span>0</span> like(s)</p>
-                    <button>Like</button>
-                </div>
+                <footer>
+                    <p><span class="like-number">0</span> like(s)</p>
+                    <button class="like">Like</button>
+                </footer>
             </article>
-            <article>
+            <article class="post">
                 <div>
-                    <p>Lina K.</p>
+                    <h2 class="name">Lina K.</h2>
                     <p>Acabo de terminar este <a href="#">nuevo comic</a>, denle un vistazo.</p>
                 </div>
-                <div>
-                    <p><span>0</span> like(s)</p>
-                    <button>Like</button>
-                </div>
+                <footer>
+                    <p><span class="like-number">0</span> like(s)</p>
+                    <button class="like">Like</button>
+                </footer>
             </article>
-            <article>
+            <article class="post">
                 <div>
-                    <p>Mateo H.</p>
+                    <h2 class="name">Mateo H.</h2>
                     <p>No puedo dejar de escuchar este <a href="#">album</a>. ¿A quién más le gusta?</p>
                 </div>
-                <div>
-                    <p><span>0</span> like(s)</p>
-                    <button>Like</button>
-                </div>
+                <footer>
+                    <p><span class="like-number">0</span> like(s)</p>
+                    <button class="like">Like</button>
+                </footer>
             </article>
         </div>
     </main>
+    <script src="js/script.js"></script>
 </body>
 </html>
